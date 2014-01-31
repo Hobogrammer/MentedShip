@@ -15,8 +15,8 @@
   <tbody>
     <% @orders.each do |order| %>
       <tr>
-        <td><%= order.supplier_id %></td>
-        <td><%= order.customer_id %></td>
+        <td><%= order.supplier.name %></td>
+        <td><%= order.customer.name %></td>
         <td><%= order.shipped %></td>
         <td><%= link_to 'Show', order %></td>
         <td><%= link_to 'Edit', edit_order_path(order) %></td>

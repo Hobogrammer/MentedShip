@@ -13,11 +13,11 @@
 
   <div class="field">
     <%= f.label :supplier_id %><br>
-    <%= f.text_field :supplier_id %>
+    <%= f.select :supplier_id, Supplier.all.collect { |sup| [sup.name, sup.id] } %>
   </div>
   <div class="field">
     <%= f.label :customer_id %><br>
-    <%= f.text_field :customer_id %>
+    <%= f.select :customer_id, Customer.all.collect { |cust| [cust.name, cust.id] } %>
   </div>
   <div class="field">
     <%= f.label :shipped %><br>

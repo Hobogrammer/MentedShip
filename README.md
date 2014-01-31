@@ -1,28 +1,4 @@
-== README
+Mented Ship
+====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This application uses a has many thorough relationship to simulate a database of orders. There models used are Suppliers, Customers, and Orders. Once a customer and a supplier has been made, the user can then create an order by selecting the particular supplier and customer. There is also an option to mark if an order has been shipped (ship**ment**!) to the customer or not.
