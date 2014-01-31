@@ -5,6 +5,6 @@ This application uses a has many thorough relationship to simulate a database of
 
 Resources used
 --
-(HAS_MANY :THROUGH TUTORIAL)[http://www.gitmatt.com/posts/5]
+[HAS_MANY :THROUGH TUTORIAL](http://www.gitmatt.com/posts/5)
 
 Thanh (helping me with silly undescriptive error messages)
